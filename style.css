@@ -66,7 +66,7 @@ h1 {
 
 	display: inline-block;
 	margin: 0;
-	padding: 10px;
+	/* padding: 10px; */
 	text-align: center;
 	text-transform: uppercase;
  }
@@ -89,10 +89,20 @@ h1 {
 	border-right: 1px solid #3f464d;
  }
 
+.facebook a {
+	display: inline-block;
+	padding: 11px 20.74px 11px 20.74px;
+}
+
  .twitter {
 	position: absolute;
 	bottom: 0;
 	right: 0;
+ }
+
+ .twitter a {
+	display: inline-block;
+	padding: 11px 29.3667px;
  }
 
  .portfolio {
@@ -105,7 +115,9 @@ h1 {
  }
 
 .portfolio a {
-	padding: 11px 48.5px;
+	display: inline-block;
+	padding: 10px 58.85px;
+
 }
 
  .odkazy a {
@@ -114,8 +126,8 @@ h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	font-weight: 600;
-	padding-top: 11px;
-	padding-bottom: 11px;
+	/* padding-top: 11px;
+	padding-bottom: 11px; */
  }
 
  .portfolio:hover {
